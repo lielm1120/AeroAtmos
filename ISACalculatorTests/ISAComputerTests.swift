@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import ISACalculator
+@testable import AeroAtmos
 
 /// Unit tests verified against ICAO Standard Atmosphere Table 1
 /// Reference: ICAO Doc 7488/3 — Manual of the ICAO Standard Atmosphere

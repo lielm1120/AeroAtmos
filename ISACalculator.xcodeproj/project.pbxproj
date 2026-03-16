@@ -211,6 +211,7 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					D51CABD7586E61C55DDAD856 = {
+						DevelopmentTeam = BUC6ASR452;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -313,12 +314,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = BUC6ASR452;
 				INFOPLIST_FILE = ISACalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.AeroAtmos;
+				PRODUCT_NAME = AeroAtmos;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -402,12 +405,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = BUC6ASR452;
 				INFOPLIST_FILE = ISACalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.AeroAtmos;
+				PRODUCT_NAME = AeroAtmos;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -427,7 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculatorTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISACalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ISACalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroAtmos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroAtmos";
 			};
 			name = Release;
 		};
@@ -443,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculatorTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISACalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ISACalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroAtmos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroAtmos";
 			};
 			name = Debug;
 		};
