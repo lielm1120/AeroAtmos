@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12928F66B5D88FA1D57FF792 /* AtmosphereChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF6B9E2E933CCF4C290E1F /* AtmosphereChartView.swift */; };
+		2154BD0DAD7865464035153C /* ISACalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52F1554C65970EACFA1E8EE /* ISACalculatorApp.swift */; };
+		3CF5DA0B6FB5012D7AAE095C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D6108448EB61CB511905B /* Localizable.strings */; };
+		3D3BD1A50AB762ED533556A7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B107CDD415C2ECDFF640AE9B /* Theme.swift */; };
+		3EFFF9E9A013282C3D8BE1EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B5011A4CAB8FFF1EF8B4F1 /* ContentView.swift */; };
+		43A77580798616431C4493DE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F3954FE964ADAF60DF13187E /* PrivacyInfo.xcprivacy */; };
+		448D13FFD97C4936F466A8D8 /* AltimeterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6588925C723DC8B7088AA790 /* AltimeterService.swift */; };
+		4A2AA931942AD70E54E82449 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFF6C2F853C6BD0E9C20E7 /* CalculatorScreen.swift */; };
+		5AFB42F4250355B42B498AE8 /* AtmosphereState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246E8CBC546E332B092CAB4 /* AtmosphereState.swift */; };
+		5CAB911853BB7353C8B198C8 /* ReferenceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB3EF3B3E9DDDEAA6F2E2C /* ReferenceTableView.swift */; };
+		74D4661DC38994579A955AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274ADCBCF9499E6A5E9997F5 /* Assets.xcassets */; };
+		812952331C43345CB2B6DA38 /* DensityAltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FA83271BEDA49C37A28F0 /* DensityAltitudeView.swift */; };
+		A2BC22E00DA543003C0AB469 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB51C9497F7FF2BB3DEE78 /* ShareSheet.swift */; };
+		A3CBB7BD818D85EE4248A1A0 /* ISAComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A621C72989B6C4D1AD9ED9 /* ISAComputer.swift */; };
+		A5889F5DCF3D8A48F555073D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47EDA3258BF906ACF692A5E /* LocationService.swift */; };
+		CB6A9B35B41FFEED88B03F51 /* AtmosphereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F768A6FFACFB193CB00C64 /* AtmosphereViewModel.swift */; };
+		CCA7E91F7FE6CF0181219187 /* ISAComputerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5210629982D5B665365203 /* ISAComputerTests.swift */; };
+		D2060E5FA432D97E8C20CF1C /* LiveBarometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A37A4674798C9B74D2C30C /* LiveBarometerView.swift */; };
+		F9D016B4083F8F5B60B0695C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE27EA3CDD3CF3927FBFB5A /* Constants.swift */; };
+		FA9E83F1EFF3F027F0890114 /* EquationsReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDD6A55A99E236D932A27C /* EquationsReferenceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99DE8200C0ED980CC2CA9D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9315B5DE604B116B86F8A84C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51CABD7586E61C55DDAD856;
+			remoteInfo = ISACalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AFDD6A55A99E236D932A27C /* EquationsReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationsReferenceView.swift; sourceTree = "<group>"; };
+		0F5210629982D5B665365203 /* ISAComputerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISAComputerTests.swift; sourceTree = "<group>"; };
+		1D4EAD327C4378AA3C27F5B7 /* ISACalculator.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ISACalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216C4B58FBC9A2CD885716F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		274ADCBCF9499E6A5E9997F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EEFF6C2F853C6BD0E9C20E7 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
+		3BE27EA3CDD3CF3927FBFB5A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		48A37A4674798C9B74D2C30C /* LiveBarometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveBarometerView.swift; sourceTree = "<group>"; };
+		4EB19AB1C61505B35A10E63C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		62B5011A4CAB8FFF1EF8B4F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64CB51C9497F7FF2BB3DEE78 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		6588925C723DC8B7088AA790 /* AltimeterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimeterService.swift; sourceTree = "<group>"; };
+		76CF6B9E2E933CCF4C290E1F /* AtmosphereChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereChartView.swift; sourceTree = "<group>"; };
+		8F9FA83271BEDA49C37A28F0 /* DensityAltitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DensityAltitudeView.swift; sourceTree = "<group>"; };
+		95F768A6FFACFB193CB00C64 /* AtmosphereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereViewModel.swift; sourceTree = "<group>"; };
+		A47EDA3258BF906ACF692A5E /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		B107CDD415C2ECDFF640AE9B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B246E8CBC546E332B092CAB4 /* AtmosphereState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereState.swift; sourceTree = "<group>"; };
+		BE38DF6F4FCE1ABA6C1C2D90 /* ISACalculatorTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ISACalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52F1554C65970EACFA1E8EE /* ISACalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISACalculatorApp.swift; sourceTree = "<group>"; };
+		D7621B22CA5C85443C714EEA /* ISACalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ISACalculator.entitlements; sourceTree = "<group>"; };
+		D8A621C72989B6C4D1AD9ED9 /* ISAComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISAComputer.swift; sourceTree = "<group>"; };
+		DBFB3EF3B3E9DDDEAA6F2E2C /* ReferenceTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceTableView.swift; sourceTree = "<group>"; };
+		EAEC0387A197CC9913658339 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3954FE964ADAF60DF13187E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FD29918AC221DC9C0B610A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B246E8CBC546E332B092CAB4 /* AtmosphereState.swift */,
+				3BE27EA3CDD3CF3927FBFB5A /* Constants.swift */,
+				D8A621C72989B6C4D1AD9ED9 /* ISAComputer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21B5F63C772A394545F1CADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4EAD327C4378AA3C27F5B7 /* ISACalculator.app */,
+				BE38DF6F4FCE1ABA6C1C2D90 /* ISACalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33869B7CE3F7426F4A938237 /* ISACalculator */ = {
+			isa = PBXGroup;
+			children = (
+				274ADCBCF9499E6A5E9997F5 /* Assets.xcassets */,
+				216C4B58FBC9A2CD885716F5 /* Info.plist */,
+				D7621B22CA5C85443C714EEA /* ISACalculator.entitlements */,
+				C52F1554C65970EACFA1E8EE /* ISACalculatorApp.swift */,
+				F3954FE964ADAF60DF13187E /* PrivacyInfo.xcprivacy */,
+				08FD29918AC221DC9C0B610A /* Models */,
+				8E74AFB9CD1E41028C82517F /* Resources */,
+				CEB08440D8C06D439032DD5C /* Services */,
+				C13D32318F24E8AF53083594 /* ViewModels */,
+				3FE3740242606E64F1F51E61 /* Views */,
+			);
+			path = ISACalculator;
+			sourceTree = "<group>";
+		};
+		3FE3740242606E64F1F51E61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76CF6B9E2E933CCF4C290E1F /* AtmosphereChartView.swift */,
+				2EEFF6C2F853C6BD0E9C20E7 /* CalculatorScreen.swift */,
+				62B5011A4CAB8FFF1EF8B4F1 /* ContentView.swift */,
+				8F9FA83271BEDA49C37A28F0 /* DensityAltitudeView.swift */,
+				0AFDD6A55A99E236D932A27C /* EquationsReferenceView.swift */,
+				48A37A4674798C9B74D2C30C /* LiveBarometerView.swift */,
+				DBFB3EF3B3E9DDDEAA6F2E2C /* ReferenceTableView.swift */,
+				64CB51C9497F7FF2BB3DEE78 /* ShareSheet.swift */,
+				B107CDD415C2ECDFF640AE9B /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		681E131E30D3207350775046 = {
+			isa = PBXGroup;
+			children = (
+				33869B7CE3F7426F4A938237 /* ISACalculator */,
+				DB0696373028CDFE7C15CF55 /* ISACalculatorTests */,
+				21B5F63C772A394545F1CADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E74AFB9CD1E41028C82517F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B4D6108448EB61CB511905B /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C13D32318F24E8AF53083594 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				95F768A6FFACFB193CB00C64 /* AtmosphereViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEB08440D8C06D439032DD5C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6588925C723DC8B7088AA790 /* AltimeterService.swift */,
+				A47EDA3258BF906ACF692A5E /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DB0696373028CDFE7C15CF55 /* ISACalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F5210629982D5B665365203 /* ISAComputerTests.swift */,
+			);
+			path = ISACalculatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9944DD303636D8E9A99C948 /* ISACalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4532201F91BCAA3AFBB20C06 /* Build configuration list for PBXNativeTarget "ISACalculatorTests" */;
+			buildPhases = (
+				ED9BF6C5175D41C905F1794A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDC796C52D56B28A7BB0520 /* PBXTargetDependency */,
+			);
+			name = ISACalculatorTests;
+			packageProductDependencies = (
+			);
+			productName = ISACalculatorTests;
+			productReference = BE38DF6F4FCE1ABA6C1C2D90 /* ISACalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D51CABD7586E61C55DDAD856 /* ISACalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BE9E53F12CAA9023B07EAB /* Build configuration list for PBXNativeTarget "ISACalculator" */;
+			buildPhases = (
+				18E3E983A92F4FD33653F574 /* Sources */,
+				1654DD261F6B7A5D672019A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISACalculator;
+			packageProductDependencies = (
+			);
+			productName = ISACalculator;
+			productReference = 1D4EAD327C4378AA3C27F5B7 /* ISACalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9315B5DE604B116B86F8A84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D51CABD7586E61C55DDAD856 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BAD222F1C90EAFC943037BAA /* Build configuration list for PBXProject "ISACalculator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				he,
+			);
+			mainGroup = 681E131E30D3207350775046;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 21B5F63C772A394545F1CADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51CABD7586E61C55DDAD856 /* ISACalculator */,
+				C9944DD303636D8E9A99C948 /* ISACalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1654DD261F6B7A5D672019A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D4661DC38994579A955AAE /* Assets.xcassets in Resources */,
+				3CF5DA0B6FB5012D7AAE095C /* Localizable.strings in Resources */,
+				43A77580798616431C4493DE /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E3E983A92F4FD33653F574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448D13FFD97C4936F466A8D8 /* AltimeterService.swift in Sources */,
+				12928F66B5D88FA1D57FF792 /* AtmosphereChartView.swift in Sources */,
+				5AFB42F4250355B42B498AE8 /* AtmosphereState.swift in Sources */,
+				CB6A9B35B41FFEED88B03F51 /* AtmosphereViewModel.swift in Sources */,
+				4A2AA931942AD70E54E82449 /* CalculatorScreen.swift in Sources */,
+				F9D016B4083F8F5B60B0695C /* Constants.swift in Sources */,
+				3EFFF9E9A013282C3D8BE1EB /* ContentView.swift in Sources */,
+				812952331C43345CB2B6DA38 /* DensityAltitudeView.swift in Sources */,
+				FA9E83F1EFF3F027F0890114 /* EquationsReferenceView.swift in Sources */,
+				2154BD0DAD7865464035153C /* ISACalculatorApp.swift in Sources */,
+				A3CBB7BD818D85EE4248A1A0 /* ISAComputer.swift in Sources */,
+				D2060E5FA432D97E8C20CF1C /* LiveBarometerView.swift in Sources */,
+				A5889F5DCF3D8A48F555073D /* LocationService.swift in Sources */,
+				5CAB911853BB7353C8B198C8 /* ReferenceTableView.swift in Sources */,
+				A2BC22E00DA543003C0AB469 /* ShareSheet.swift in Sources */,
+				3D3BD1A50AB762ED533556A7 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9BF6C5175D41C905F1794A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA7E91F7FE6CF0181219187 /* ISAComputerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDC796C52D56B28A7BB0520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D51CABD7586E61C55DDAD856 /* ISACalculator */;
+			targetProxy = 99DE8200C0ED980CC2CA9D98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B4D6108448EB61CB511905B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB19AB1C61505B35A10E63C /* en */,
+				EAEC0387A197CC9913658339 /* he */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E72CB46890C741A29C6E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ISACalculator/ISACalculator.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				INFOPLIST_FILE = ISACalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculator;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A2D72A0CE3933E63BD5963C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		63884628910BE9252DE0EDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ISACalculator/ISACalculator.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				INFOPLIST_FILE = ISACalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculator;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A98F3A8EDA0D24CD3CB307C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculatorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISACalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ISACalculator";
+			};
+			name = Release;
+		};
+		A7723946FE57BD0FFD66BED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.ISACalculatorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISACalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ISACalculator";
+			};
+			name = Debug;
+		};
+		C7B376743714C3A5C37383EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BE9E53F12CAA9023B07EAB /* Build configuration list for PBXNativeTarget "ISACalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E72CB46890C741A29C6E5F /* Debug */,
+				63884628910BE9252DE0EDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4532201F91BCAA3AFBB20C06 /* Build configuration list for PBXNativeTarget "ISACalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7723946FE57BD0FFD66BED8 /* Debug */,
+				6A98F3A8EDA0D24CD3CB307C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAD222F1C90EAFC943037BAA /* Build configuration list for PBXProject "ISACalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2D72A0CE3933E63BD5963C /* Debug */,
+				C7B376743714C3A5C37383EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9315B5DE604B116B86F8A84C /* Project object */;
+}

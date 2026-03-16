@@ -1,0 +1,77 @@
+/* ISA Calculator — Hebrew Localization */
+
+/* Tab Titles */
+"Calculator" = "מחשבון";
+"Profile" = "פרופיל";
+"Density Alt" = "גובה צפיפות";
+"Live" = "חי";
+
+/* Input Screen */
+"ISA Calculator" = "מחשבון ISA";
+"Input" = "קלט";
+"Altitude" = "גובה";
+"Unit" = "יחידה";
+"Type" = "סוג";
+"Meters" = "מטרים";
+"Feet" = "רגל";
+"Geometric" = "גאומטרי";
+"Geopotential" = "גאופוטנציאלי";
+"ISA Deviation (ΔT)" = "סטיית ISA (ΔT)";
+
+/* Results */
+"Temperature" = "טמפרטורה";
+"Pressure" = "לחץ";
+"Density" = "צפיפות";
+"Speed of Sound" = "מהירות הקול";
+"Dynamic Viscosity" = "צמיגות דינמית";
+"Kinematic Viscosity" = "צמיגות קינמטית";
+"Show the Math" = "הראה את החישוב";
+
+/* Atmosphere Chart */
+"Atmosphere Profile" = "פרופיל אטמוספרי";
+"Pressure Ratio" = "יחס לחץ";
+"Density Ratio" = "יחס צפיפות";
+"Altitude (km)" = "גובה (ק״מ)";
+"ISA %+.1f °C" = "ISA %+.1f °C";
+
+/* Density Altitude */
+"Density Altitude" = "גובה צפיפות";
+"Conditions" = "תנאים";
+"Pressure Altitude" = "גובה לחץ";
+"Outside Air Temp (OAT)" = "טמפרטורת אוויר חיצונית (OAT)";
+"ISA Temp: %.1f °C  (ΔT = %+.1f °C)" = "טמפ׳ ISA: %.1f °C  (ΔT = %+.1f °C)";
+"Result" = "תוצאה";
+"Metric" = "מטרי";
+"vs Pressure Alt" = "מול גובה לחץ";
+"What is Density Altitude?" = "מהו גובה צפיפות?";
+"Density altitude indicates the altitude in the ISA that has the same air density as your current conditions." = "גובה צפיפות מציין את הגובה ב-ISA שבו צפיפות האוויר זהה לתנאים הנוכחיים.";
+"Higher density altitude = thinner air = reduced aircraft performance." = "גובה צפיפות גבוה יותר = אוויר דליל יותר = ביצועי מטוס מופחתים.";
+"Hot days and high elevations both increase density altitude." = "ימים חמים וגבהים גדולים שניהם מגדילים את גובה הצפיפות.";
+
+/* Live Barometer */
+"Live Barometer" = "ברומטר חי";
+"Sensor Control" = "בקרת חיישנים";
+"Sensors Active" = "חיישנים פעילים";
+"Sensors Inactive" = "חיישנים כבויים";
+"Barometer available" = "ברומטר זמין";
+"Barometer not available (simulator?)" = "ברומטר לא זמין (סימולטור?)";
+"Start Sensors" = "הפעל חיישנים";
+"Stop Sensors" = "עצור חיישנים";
+"Barometer" = "ברומטר";
+"Barometric Pressure" = "לחץ ברומטרי";
+"Pressure (inHg)" = "לחץ (inHg)";
+"ISA Temperature" = "טמפרטורת ISA";
+"ISA Density" = "צפיפות ISA";
+"Waiting for Data" = "ממתין לנתונים";
+"Barometric data will appear here" = "נתוני ברומטר יופיעו כאן";
+"GPS" = "GPS";
+"GPS Altitude (MSL)" = "גובה GPS (מעל פני הים)";
+"GPS − Pressure Alt" = "GPS − גובה לחץ";
+"Waiting for GPS" = "ממתין ל-GPS";
+"GPS data will appear here" = "נתוני GPS יופיעו כאן";
+"Derived Atmosphere" = "אטמוספרה נגזרת";
+"Speed of Sound (est.)" = "מהירות הקול (הערכה)";
+"Air Density (est.)" = "צפיפות אוויר (הערכה)";
+"Density Ratio" = "יחס צפיפות";
+"Note: Temperature and density estimated from ISA using measured pressure. Actual values depend on local weather." = "הערה: טמפרטורה וצפיפות מוערכות מ-ISA על בסיס הלחץ הנמדד. ערכים בפועל תלויים במזג האוויר המקומי.";
+"Derived values require barometric data" = "ערכים נגזרים דורשים נתוני ברומטר";

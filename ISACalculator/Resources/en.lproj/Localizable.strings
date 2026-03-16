@@ -1,0 +1,79 @@
+/* ISA Calculator — English Localization */
+
+/* Tab Titles */
+"Calculator" = "Calculator";
+"Profile" = "Profile";
+"Density Alt" = "Density Alt";
+"Live" = "Live";
+
+/* Input Screen */
+"ISA Calculator" = "ISA Calculator";
+"Input" = "Input";
+"Altitude" = "Altitude";
+"Unit" = "Unit";
+"Type" = "Type";
+"Meters" = "Meters";
+"Feet" = "Feet";
+"Geometric" = "Geometric";
+"Geopotential" = "Geopotential";
+"ISA Deviation (ΔT)" = "ISA Deviation (ΔT)";
+
+/* Results */
+"Temperature" = "Temperature";
+"Pressure" = "Pressure";
+"Density" = "Density";
+"Speed of Sound" = "Speed of Sound";
+"Dynamic Viscosity" = "Dynamic Viscosity";
+"Kinematic Viscosity" = "Kinematic Viscosity";
+"Show the Math" = "Show the Math";
+
+/* Atmosphere Chart */
+"Atmosphere Profile" = "Atmosphere Profile";
+"Temperature" = "Temperature";
+"Pressure Ratio" = "Pressure Ratio";
+"Density Ratio" = "Density Ratio";
+"Speed of Sound" = "Speed of Sound";
+"Altitude (km)" = "Altitude (km)";
+"ISA %+.1f °C" = "ISA %+.1f °C";
+
+/* Density Altitude */
+"Density Altitude" = "Density Altitude";
+"Conditions" = "Conditions";
+"Pressure Altitude" = "Pressure Altitude";
+"Outside Air Temp (OAT)" = "Outside Air Temp (OAT)";
+"ISA Temp: %.1f °C  (ΔT = %+.1f °C)" = "ISA Temp: %.1f °C  (ΔT = %+.1f °C)";
+"Result" = "Result";
+"Metric" = "Metric";
+"vs Pressure Alt" = "vs Pressure Alt";
+"What is Density Altitude?" = "What is Density Altitude?";
+"Density altitude indicates the altitude in the ISA that has the same air density as your current conditions." = "Density altitude indicates the altitude in the ISA that has the same air density as your current conditions.";
+"Higher density altitude = thinner air = reduced aircraft performance." = "Higher density altitude = thinner air = reduced aircraft performance.";
+"Hot days and high elevations both increase density altitude." = "Hot days and high elevations both increase density altitude.";
+
+/* Live Barometer */
+"Live Barometer" = "Live Barometer";
+"Sensor Control" = "Sensor Control";
+"Sensors Active" = "Sensors Active";
+"Sensors Inactive" = "Sensors Inactive";
+"Barometer available" = "Barometer available";
+"Barometer not available (simulator?)" = "Barometer not available (simulator?)";
+"Start Sensors" = "Start Sensors";
+"Stop Sensors" = "Stop Sensors";
+"Barometer" = "Barometer";
+"Barometric Pressure" = "Barometric Pressure";
+"Pressure (inHg)" = "Pressure (inHg)";
+"ISA Temperature" = "ISA Temperature";
+"ISA Density" = "ISA Density";
+"Waiting for Data" = "Waiting for Data";
+"Barometric data will appear here" = "Barometric data will appear here";
+"GPS" = "GPS";
+"GPS Altitude (MSL)" = "GPS Altitude (MSL)";
+"GPS − Pressure Alt" = "GPS − Pressure Alt";
+"Waiting for GPS" = "Waiting for GPS";
+"GPS data will appear here" = "GPS data will appear here";
+"Derived Atmosphere" = "Derived Atmosphere";
+"Speed of Sound (est.)" = "Speed of Sound (est.)";
+"Air Density (est.)" = "Air Density (est.)";
+"Density Ratio" = "Density Ratio";
+"Note: Temperature and density estimated from ISA using measured pressure. Actual values depend on local weather." = "Note: Temperature and density estimated from ISA using measured pressure. Actual values depend on local weather.";
+"Derived values require barometric data" = "Derived values require barometric data";
