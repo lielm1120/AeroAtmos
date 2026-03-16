@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AeroAtmos - Support</title>
+<style>
+  :root { --bg: #0f1a2e; --card: #1a2740; --accent: #4a9eff; --text: #e0e6ed; --muted: #8899aa; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+  .container { max-width: 680px; margin: 0 auto; padding: 40px 20px; }
+  header { text-align: center; margin-bottom: 48px; }
+  header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 4px; }
+  header p { color: var(--muted); font-size: 1rem; }
+  .card { background: var(--card); border-radius: 16px; padding: 28px; margin-bottom: 24px; }
+  .card h2 { font-size: 1.25rem; margin-bottom: 12px; color: var(--accent); }
+  .card p, .card li { color: var(--text); font-size: 0.95rem; margin-bottom: 8px; }
+  .card ul { padding-left: 20px; }
+  .card a { color: var(--accent); text-decoration: none; }
+  .card a:hover { text-decoration: underline; }
+  nav { display: flex; gap: 12px; justify-content: center; margin-bottom: 40px; flex-wrap: wrap; }
+  nav a { color: var(--accent); text-decoration: none; background: var(--card); padding: 10px 20px; border-radius: 10px; font-size: 0.9rem; font-weight: 500; }
+  nav a:hover { background: #223350; }
+  footer { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 48px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AeroAtmos</h1>
+    <p>International Standard Atmosphere Calculator for iOS</p>
+  </header>
+
+  <nav>
+    <a href="#support">Support</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div class="card" id="support">
+    <h2>Support</h2>
+    <p>Having trouble or have a suggestion? We're happy to help.</p>
+    <ul>
+      <li>Open an issue on <a href="https://github.com/lielm1120/AeroAtmos/issues">GitHub</a></li>
+      <li>Email: <a href="mailto:lielmachluf@gmail.com">lielmachluf@gmail.com</a></li>
+    </ul>
+    <p style="margin-top: 12px; color: var(--muted);">We typically respond within 48 hours.</p>
+  </div>
+
+  <div class="card" id="privacy">
+    <h2>Privacy Policy</h2>
+    <p><strong>Last updated:</strong> March 16, 2026</p>
+    <p style="margin-top: 12px;">AeroAtmos is designed with your privacy in mind. Here's how we handle your data:</p>
+    <ul style="margin-top: 12px;">
+      <li><strong>No data collection.</strong> AeroAtmos does not collect, store, or transmit any personal data.</li>
+      <li><strong>No analytics.</strong> We do not use any analytics or tracking frameworks.</li>
+      <li><strong>No accounts.</strong> The app does not require registration or sign-in.</li>
+      <li><strong>Barometric sensor.</strong> The app reads barometric pressure from your device's sensor for live atmosphere data. This data is processed entirely on-device and is never transmitted.</li>
+      <li><strong>Location.</strong> If you grant permission, the app uses GPS altitude for atmosphere calculations. Location data is processed on-device only and is never stored or shared.</li>
+    </ul>
+    <p style="margin-top: 12px;">All atmospheric calculations are performed locally on your device. No internet connection is required to use the app.</p>
+  </div>
+
+  <div class="card" id="about">
+    <h2>About</h2>
+    <p>AeroAtmos computes atmospheric properties from sea level to 51 km using the ICAO Standard Atmosphere model (Doc 7488/3). Built for aerospace engineering students, pilots, and aviation enthusiasts.</p>
+    <ul style="margin-top: 12px;">
+      <li>Temperature, pressure, density, speed of sound & viscosity</li>
+      <li>Interactive atmosphere profile charts</li>
+      <li>Density altitude calculator</li>
+      <li>Complete ICAO reference table & equations</li>
+      <li>Live barometer with ISA comparison</li>
+    </ul>
+    <p style="margin-top: 12px;">
+      <a href="https://github.com/lielm1120/AeroAtmos">View on GitHub</a>
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2026 Liel Machluf. All rights reserved.
+  </footer>
+</div>
+</body>
+</html>
