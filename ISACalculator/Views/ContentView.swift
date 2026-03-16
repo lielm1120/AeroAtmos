@@ -5,30 +5,21 @@ struct ContentView: View {
 
     var body: some View {
         TabView {
-            CalculatorScreen()
-                .tabItem {
-                    Label(String(localized: "Calculator"), systemImage: "function")
-                }
-
-            AtmosphereChartView()
-                .tabItem {
-                    Label(String(localized: "Profile"), systemImage: "chart.xyaxis.line")
-                }
-
-            DensityAltitudeView()
-                .tabItem {
-                    Label(String(localized: "Density Alt"), systemImage: "airplane.circle")
-                }
-
-            ReferenceView()
-                .tabItem {
-                    Label(String(localized: "Reference"), systemImage: "book.closed")
-                }
-
-            LiveBarometerView()
-                .tabItem {
-                    Label(String(localized: "Live"), systemImage: "barometer")
-                }
+            Tab(String(localized: "Calculator"), systemImage: "function") {
+                CalculatorScreen()
+            }
+            Tab(String(localized: "Profile"), systemImage: "chart.xyaxis.line") {
+                AtmosphereChartView()
+            }
+            Tab(String(localized: "Density Alt"), systemImage: "airplane.circle") {
+                DensityAltitudeView()
+            }
+            Tab(String(localized: "Reference"), systemImage: "book.closed") {
+                ReferenceView()
+            }
+            Tab(String(localized: "Live"), systemImage: "barometer") {
+                LiveBarometerView()
+            }
         }
         .tint(Color(hex: 0x4A90D9))
     }

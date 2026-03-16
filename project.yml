@@ -2,8 +2,8 @@ name: ISACalculator
 options:
   bundleIdPrefix: com.lielmachluf
   deploymentTarget:
-    iOS: "17.0"
-  xcodeVersion: "16.0"
+    iOS: "26.0"
+  xcodeVersion: "26.0"
   generateEmptyDirectories: true
 
 settings:
@@ -72,18 +72,31 @@ targets:
         TEST_HOST: "$(BUILT_PRODUCTS_DIR)/AeroAtmos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroAtmos"
         BUNDLE_LOADER: "$(TEST_HOST)"
 
+  ISACalculatorUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - ISACalculatorUITests
+    dependencies:
+      - target: ISACalculator
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lielmachluf.ISACalculatorUITests
+
 schemes:
   ISACalculator:
     build:
       targets:
         ISACalculator: all
         ISACalculatorTests: [test]
+        ISACalculatorUITests: [test]
     run:
       config: Debug
     test:
       config: Debug
       targets:
         - ISACalculatorTests
+        - ISACalculatorUITests
     profile:
       config: Release
     analyze:
