@@ -23,7 +23,7 @@ targets:
     settings:
       base:
         PRODUCT_NAME: AeroAtmos
-        PRODUCT_BUNDLE_IDENTIFIER: com.lielmachluf.AeroAtmos
+        PRODUCT_BUNDLE_IDENTIFIER: com.lielmachluf.aeroatmos-isa
         INFOPLIST_FILE: ISACalculator/Info.plist
         DEVELOPMENT_ASSET_PATHS: ""
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

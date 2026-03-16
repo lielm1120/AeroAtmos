@@ -320,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.AeroAtmos;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lielmachluf.aeroatmos-isa";
 				PRODUCT_NAME = AeroAtmos;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -411,7 +411,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lielmachluf.AeroAtmos;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lielmachluf.aeroatmos-isa";
 				PRODUCT_NAME = AeroAtmos;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
